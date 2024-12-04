@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(26, 26, 28, 1);
+    color: white;
+    overflow-x: hidden;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#crypto-search {
+    width: 70%;
+    padding: 15px;
+    border: 2px solid rgba(142, 142, 142, 1);
+    background-color: rgba(26, 26, 28, 1);
+    color: white;
+}
+
+::placeholder,
+.action-btn {
+    color: white;
+}
+
+.action-btn {
+    padding: 15px;
+    border: 2px solid rgba(142, 142, 142, 1);
+    width: 14%;
+    background-color: rgba(26, 26, 28, 1);
+    cursor: pointer;
+}
+
+table {
+    width: 96%;
+    margin: 30px;
+    align-content: center;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 2px solid rgba(142, 142, 142, 1);
+}
+
+td,
+th {
+    padding: 10px 0px;
+}
+
+td:first-child {
+    width: auto;
+}
+
+.crypto-name {
+    text-align: left;
+    font-weight: bold;
+}
+
+img {
+    width: 30px;
+    text-align: right;
+}
+
+.symbol {
+    text-transform: uppercase;
+}
